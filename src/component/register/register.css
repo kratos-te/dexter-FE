@@ -1,0 +1,370 @@
+@media only screen and (max-width: 1000px) {
+  .LoginPage {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+    /* background: linear-gradient(110.87deg, #11202D 7.31%, #2A3946 87.57%); */
+  }
+
+  .error {
+    color: red;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    margin-top: -5%;
+    margin-bottom: 5%;
+  }
+
+  .create-accounts {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    margin-top: 75px;
+    color: #ffffff;
+    display: block;
+    visibility: visible;
+  }
+
+  .create-account-twos {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #ffffff;
+    margin-bottom: 45px;
+    display: block;
+    visibility: visible;
+  }
+
+  .login-bot-image {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    width: 90%;
+    height: 90%;
+  }
+
+  .two-col-log-in-page {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 0px;
+  }
+
+  .create-account {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #ffffff;
+    visibility: hidden;
+    display: none;
+  }
+
+  .create-account-two {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+    margin-top: 20px;
+    color: #ffffff;
+    margin-bottom: 45px;
+    visibility: hidden;
+    display: none;
+  }
+
+  .placeholder-for-text-field {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #ffffff;
+  }
+
+  .input-field-login {
+    border: 1px solid #d4d7d9;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+  }
+
+  .register-button {
+    height: 32px;
+    width: 50%;
+
+    /* background: #3DD4CE;
+        border: 1px solid #3DD4CE;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    background: #6e5a2f;
+    border: 1px solid #6e5a2f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    border-radius: 50px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-left: 25%;
+  }
+
+  .three-col-log-in-page {
+    width: 100%;
+
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .LoginPage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    /* background: linear-gradient(110.87deg, #11202D 7.31%, #2A3946 87.57%); */
+    padding-bottom: 20%;
+    padding-top: 50px;
+  }
+
+  .create-accounts {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #ffffff;
+    display: none;
+    visibility: hidden;
+  }
+
+  .create-account-twos {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+    margin-top: 20px;
+    color: #ffffff;
+    margin-bottom: 45px;
+    display: none;
+    visibility: hidden;
+  }
+
+  .login-bot-image {
+    width: 30%;
+  }
+
+  .two-col-log-in-page {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* margin-left: 105px; */
+  }
+
+  .create-account {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #ffffff;
+    display: block;
+    visibility: visible;
+  }
+
+  .create-account-two {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+    margin-top: 20px;
+    color: #ffffff;
+    margin-bottom: 45px;
+    display: block;
+    visibility: visible;
+  }
+
+  .placeholder-for-text-field {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+
+  .input-field-login {
+    border: 1px solid #d4d7d9;
+    border-radius: 5px;
+    width: 398px;
+    height: 40px;
+    background-color: transparent;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+  }
+
+  .register-button {
+    height: 48px;
+    width: 90%;
+    /* background: #3DD4CE;
+        border: 1px solid #3DD4CE;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    background: #6e5a2f;
+    border: 1px solid #6e5a2f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    border-radius: 50px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #ffffff;
+    margin-top: 65px;
+  }
+
+  .three-col-log-in-page {
+    width: 30%;
+    height: 100%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    /* margin-left: 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 30px;
+  }
+
+  .error {
+    color: red;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    margin-top: -5%;
+    margin-bottom: 5%;
+  }
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  margin-top: -5%;
+  margin-bottom: 5%;
+}
+
+.password-strength {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 54px;
+  margin-left: 22px;
+  margin-bottom: 40px;
+}
+
+.row-password-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 22px;
+  margin-bottom: 20px;
+}
+
+.list-data-password {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  margin-left: 20px;
+  color: #ffffff;
+}
+
+.link-login {
+  color: #ffffff;
+  padding-top: 17px;
+  text-decoration: none;
+}
+
+.linkt {
+  padding-left: 14px;
+  color: #f2af00;
+  text-decoration: none;
+}
+
+.linkkt:hover {
+  color: #f2af00;
+  text-decoration: none;
+}
+
+Link:hover {
+  text-decoration: none !important;
+  color: #f2af00;
+}

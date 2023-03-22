@@ -1,0 +1,434 @@
+@media only screen and (min-width: 1000px) {
+  .all-details-price-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    column-gap: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .music-card-name {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+
+  .first-row-player-card-details {
+    width: 100%;
+    height: 207px;
+    background: rgba(0, 0, 0, 0.31);
+    /* margin-top: 105px; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .perchases-total {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+
+  .buy-button {
+    height: 33px;
+    width: 145px;
+    /* background: #3D70D4;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    background: #6e5a2f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    border: none;
+    text-align: center;
+    padding: 7px;
+    color: #ffffff;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+
+  .star-row-price-card-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    column-gap: 10px;
+    margin-top: 13px;
+    margin-bottom: 50px;
+  }
+
+  .star-row-price-card-details-mobile {
+    display: none;
+    visibility: hidden;
+  }
+
+  .creator-name {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #ffffff;
+  }
+
+  .about-the-strategy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 45px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #ffffff;
+    margin-left: 126px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .card-image-price-card {
+    width: 40%;
+
+    border-radius: 10px;
+    /* margin-left: 190px; */
+  }
+
+  .details-price-card {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #ffffff;
+  }
+
+  .row-third-row-price-card-details {
+    height: 130px;
+    width: 100%;
+    background: #0e1a23;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 31px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 133px;
+  }
+
+  .start-earning-with-astrabit-title {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 50px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .contact-us-button {
+    /* border: 1px solid #3DD4CE;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+    border: 1px solid #f1ba28;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50px;
+    width: 196px;
+    height: 58px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f1ba28;
+    margin-top: 50px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .start-earning-with-astrabit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 418px;
+
+    background: rgba(19, 29, 37, 0.62);
+  }
+
+  .cart-desk-price-card {
+    display: block;
+  }
+
+  .cart-mob-price-card {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .cart-desk-price-card {
+    display: none;
+  }
+
+  .cart-mob-price-card {
+    display: block;
+  }
+
+  .start-earning-with-astrabit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 196px;
+
+    background: rgba(19, 29, 37, 0.62);
+  }
+
+  .contact-us-button {
+    border: 1px solid #3dd4ce;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50px;
+    height: 42px;
+    width: 169px;
+
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #3dd4ce;
+
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .start-earning-with-astrabit-title {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .row-third-row-price-card-details {
+    display: none;
+  }
+
+  .details-price-card {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #ffffff;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .card-image-price-card {
+    /* height: 100%; */
+    width: 100%;
+
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .about-the-strategy {
+    display: none;
+  }
+
+  .creator-name {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+
+  .all-details-price-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .music-card-name {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+
+  .first-row-player-card-details {
+    width: 100%;
+    height: 207px;
+    background: rgba(0, 0, 0, 0.31);
+    /* margin-top: 105px; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .perchases-total {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #ffffff;
+  }
+
+  .buy-button {
+    width: 68px;
+
+    /* background: #3D70D4;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    background: #6e5a2f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    /* identical to box height */
+    border: none;
+    text-align: center;
+    padding: 2px;
+    color: #ffffff;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+
+  .star-row-price-card-details {
+    display: none;
+    visibility: hidden;
+  }
+
+  .star-row-price-card-details-mobile {
+    visibility: visible;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    column-gap: 5px;
+    margin-top: 13px;
+    margin-bottom: 50px;
+  }
+}
+
+.payment-div {
+  margin: 3%;
+}
+
+.PriceCardDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-one-first-row-player-card-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 35px;
+}
+
+.col-two-first-row-player-card-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 35px;
+}
+
+.text-price-card-details {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.contact-us-button:hover {
+  border: 1px solid #3dd4ce;
+
+  color: #3dd4ce;
+}
+
+button.primary {
+  background: #6e5a2f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  padding: 2px;
+  color: #ffffff;
+  margin-top: 30px;
+  cursor: pointer;
+  width: 145px;
+  height: 33px;
+  border: none;
+}

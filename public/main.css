@@ -1,0 +1,7 @@
+body {
+    overflow-x: hidden;
+    scroll-behavior: auto;
+    /* background: linear-gradient(110.87deg, #11202D 7.31%, #2A3946 87.57%); */
+    background: linear-gradient(110.87deg, #29282F 7.31%, #4F4F4F 87.57%);
+
+}

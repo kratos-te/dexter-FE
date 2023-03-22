@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+@media only screen and (min-width: 1100px) {
+    .profile-card-second-col-details {
+        overflow: hidden;
+        position: relative;
+        top: -130px;
+        display: flex;
+        height: 225px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 30px;
+        padding-bottom: 42px;
+        border-radius: 0px 0px 25px 25px;
+        padding-top: 50px;
+        background: linear-gradient(359.85deg, #0D1720 40.99%, #232020 54.44%, rgba(35, 32, 32, 0.548421) 79.34%, rgba(35, 32, 32, 0) 97.41%);
+    }
+    .about-us-topic-header-details{
+        font-size:16px
+    }
+
+    .col-mob-about-us {
+        display: none;
+        visibility: hidden;
+    }
+
+    .first-row-col-two-about-first-row {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        column-gap: 20px;
+        width: 100%;
+        overflow: hidden;
+
+    }
+
+    .profile-card-second-col {
+        width: 30%;
+        height: 50%;
+        border-radius: 25px;
+        overflow: hidden;
+
+    }
+
+    .col-two-about-first-row {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 77%;
+        margin-left: 25px;
+    }
+
+    .col-one-about-first-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 23%;
+
+
+    }
+
+    .about-first-row {
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+        margin-top: 50px;
+        width: 100%;
+        padding-left: 50px;
+        overflow: hidden;
+
+    }
+
+    .profile-card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        border-radius: 20px;
+        overflow: hidden;
+
+    }
+
+    .profile-image-aboutus-page {
+        border-radius: 20px 20px 0px 0px;
+        width: 100%;
+    }
+
+    .profile-description-here {
+        width: 100%;
+        background: linear-gradient(359.85deg, #0D1720 40.99%, #232020 54.44%, rgba(35, 32, 32, 0.548421) 79.34%, rgba(35, 32, 32, 0) 97.41%);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-radius: 0px 0px 20px 20px;
+        padding-bottom: 50px;
+        position: relative;
+        top: -350px;
+        padding-left: 40px;
+    }
+
+    .name-profile-name {
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22.3964px;
+        line-height: 115%;
+        /* or 26px */
+        margin-top: 215px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+
+    .name-profile-tag-line {
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12.4425px;
+        line-height: 115%;
+        /* or 14px */
+
+        text-transform: capitalize;
+
+        color: rgba(199, 195, 195, 0.8);
+        margin-bottom: 10px;
+    }
+
+    .star-massage {
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12.4425px;
+        line-height: 115%;
+        /* or 14px */
+
+        text-transform: capitalize;
+        margin-left: 10px;
+        color: #FFFFFF;
+
+    }
+
+    .profile-title-two-details {
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10.5997px;
+        line-height: 132.5%;
+        /* or 14px */
+
+        text-align: justify;
+        text-transform: capitalize;
+
+        color: #FFFFFF;
+        margin-right: 40px;
+        margin-top: 10px;
+    }
+
+    .star-row-and-massage {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .star-row-and-massage-two {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        column-gap: 10px;
+        margin-top: 20px;
+    }
+
+    .star-row-and-massage-two-mob {
+        display: none;
+    }
+
+    .stars-row-mob-and-desktop {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        column-gap: 5px;
+
+    }
+
+    .profile-description-here {
+        width: 100%;
+        background: linear-gradient(359.85deg, #0D1720 40.99%, #232020 54.44%, rgba(35, 32, 32, 0.548421) 79.34%, rgba(35, 32, 32, 0) 97.41%);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-radius: 0px 0px 20px 20px;
+        padding-bottom: 50px;
+        position: relative;
+        top: -350px;
+        padding-left: 40px;
+    }
+
+    .stars-row-mob {
+
+        display: none;
+    }
+
+    .stars-row-desktop {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+
+    }
+
+    .profile-card-second-col-details-name {
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22.3964px;
+        line-height: 115%;
+        /* or 26px */
+
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    .profile-card-second-col-details-title {
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12.4425px;
+        line-height: 115%;
+        /* or 14px */
+
+        text-transform: capitalize;
+
+        color: rgba(199, 195, 195, 0.8);
+    }
+
+    .connect-button {
+        background: #4EA7EB;
+        border-radius: 15.8996px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 115%;
+        /* or 14px */
+        text-transform: capitalize;
+        color: #FFFFFF;
+        padding: 5px;
+        width: 84.8px;
+        margin-top: 30px;
+    }
+
+    .connect-button-mobile {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+    .connect-button {
+        display: none;
+    }
+
+    .connect-button-mobile {
+
+        background: #4EA7EB;
+        border-radius: 15.8996px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 115%;
+        /* or 11px */
+
+        text-transform: capitalize;
+
+        color: #FFFFFF;
+        padding: 5px 10px 5px 10px;
+        
+
+    }
+
+    .profile-card-second-col-details {
+        position: relative;
+        top: -100px;
+        display: flex;
+        height: 225px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 15px;
+        padding-bottom: 42px;
+        border-radius: 0px 0px 25px 25px;
+        padding-top: 50px;
+        background: linear-gradient(359.85deg, #0D1720 40.99%, #232020 54.44%, rgba(35, 32, 32, 0.548421) 79.34%, rgba(35, 32, 32, 0) 97.41%);
+    }
+
+    .profile-card-second-col-details-title {
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 115%;
+        /* or 9px */
+
+        text-transform: capitalize;
+
+        color: rgba(199, 195, 195, 0.8);
+        margin-top: 5px;
+    }
+
+    .profile-card-second-col-details-name {
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 115%;
+        /* or 11px */
+
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+
+    }
+
+    .profile-description-here {
+        width: 100%;
+        background: linear-gradient(359.85deg, #0D1720 40.99%, #232020 54.44%, rgba(35, 32, 32, 0.548421) 79.34%, rgba(35, 32, 32, 0) 97.41%);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-radius: 0px 0px 20px 20px;
+        padding-bottom: 30px;
+        position: relative;
+        top: -350px;
+        padding-left: 10px;
+        height: 100%;
+    }
+
+    .stars-row-mob {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+
+    }
+
+    .stars-row-desktop {
+        display: none;
+
+    }
+
+    .star-row-and-massage-two {
+        display: none
+    }
+
+    .star-row-and-massage-two-mob {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        column-gap: 5px;
+
+    }
+
+    .star-row-and-massage {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 95%;
+        margin-top: 10px;
+    }
+
+    .profile-title-two-details {
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 132.5%;
+        /* or 11px */
+
+        text-align: justify;
+        text-transform: capitalize;
+
+        color: #FFFFFF;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+
+    .star-massage {
+        display: none;
+
+    }
+
+    .name-profile-tag-line {
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 115%;
+        /* or 9px */
+
+        text-transform: capitalize;
+
+        color: rgba(199, 195, 195, 0.8);
+        margin-bottom: 10px;
+    }
+
+    .profile-card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+        border-radius: 20px;
+        overflow: hidden;
+        height: 50%;
+
+    }
+
+    .profile-image-aboutus-page {
+        border-radius: 20px 20px 0px 0px;
+        width: 100%;
+    }
+
+    .about-first-row {
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+        margin-top: 50px;
+        width: 100%;
+        column-gap: 5%;
+        overflow: hidden;
+
+    }
+
+    .col-mob-about-us {
+        display: block;
+        visibility: visible;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .col-two-about-first-row {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 40%;
+
+
+    }
+
+    .col-one-about-first-row {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 55%;
+        margin-left: 20px;
+
+        height: 100%;
+    }
+
+    .title-mob-about-us {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height */
+        margin-top: 20px;
+
+        color: #FFFFFF;
+    }
+
+
+
+    .description-about-us-mob {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+
+    .about-us-topic-header-details,
+    .about-us-topic-header {
+        display: none;
+        visibility: hidden;
+    }
+
+    .first-row-col-two-about-first-row {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        row-gap: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .profile-card-second-col {
+        width: 100%;
+        height: 15%;
+        border-radius: 25px;
+        overflow: hidden;
+        width: 95%;
+    }
+
+    .name-profile-name {
+
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 115%;
+        /* or 14px */
+        margin-top: 215px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+}
+
+.about-us-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.star-img {
+    width: 15px;
+    height: 15px;
+}
+
+.star-img-mob {
+    width: 7px;
+    height: 7px;
+}
+
+
+
+
+
+.profile-title-two {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 115%;
+    /* or 13px */
+
+    text-transform: capitalize;
+
+    color: #FAFAFA;
+    margin-top: 15px;
+
+}
+
+
+
+
+
+.profile-card-second-col-img {
+    border-radius: 25px 25px 0px 0px;
+    width: 100%;
+    height: 99%;
+}
+
+.about-us-topic-header {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 41px;
+    top: -150px;
+    color: #FFFFFF;
+
+}
+
+.about-us-topic-header-details {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-right: 150px;
+    color: #FFFFFF;
+    margin-top: 75px;
+    position: relative;
+    top: -150px;
+}

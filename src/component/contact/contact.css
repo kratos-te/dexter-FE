@@ -1,0 +1,314 @@
+@media only screen and (min-width: 1000px) {
+  .contact-page-second-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 115px;
+    padding-bottom: 250px;
+  }
+
+  .contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .topic-contact-page {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #ffffff;
+    margin-top: 20px;
+  }
+
+  .form-span-name-input {
+    width: 90%;
+    height: 40px;
+
+    background: rgba(217, 217, 217, 0.1);
+    border-radius: 5px;
+    border: 0px;
+    padding-left: 15px;
+    margin-bottom: 45px;
+    color: #ffffff;
+  }
+
+  .col-contact-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 100px;
+  }
+
+  .rightside {
+    width: 20%;
+  }
+
+  .form-span-name-area {
+    width: 90%;
+    height: 150px;
+    background: rgba(217, 217, 217, 0.1);
+    border-radius: 5px;
+    border: 0px;
+    resize: none;
+    margin-bottom: 45px;
+    color: #ffffff;
+    padding: 15px;
+  }
+
+  .col-contact-form-details {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 100px;
+    padding: 55px 0px 50px 25px;
+  }
+
+  .col-contact-form-details-topic {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #ffffff;
+  }
+
+  .col-contact-form-details-topic-details {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+
+    color: #ffffff;
+    margin-right: 40px;
+  }
+
+  .leftside {
+    width: 80%;
+  }
+
+  .inside-one-col {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #ffffff;
+    margin-left: 75px;
+    margin-top: 75px;
+  }
+
+  .detils-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 18px;
+    margin-left: 40px;
+    width: 50%;
+    margin-top: 30px;
+  }
+
+  .detils-row-inside-detils-row {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #ffffff;
+  }
+
+  .form-span-name {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  .topic-contact-page-mob {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .contact-page-second-row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 50px;
+    padding-bottom: 250px;
+    padding-left: 10px;
+    padding-right: 15px;
+  }
+
+  .topic-contact-page {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #ffffff;
+    margin-left: 30px;
+  }
+
+  .topic-contact-page-mob {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    margin-left: 30px;
+    color: #ffffff;
+  }
+
+  .form-span-name-input {
+    width: 100%;
+    height: 40px;
+
+    background: rgba(217, 217, 217, 0.1);
+    border-radius: 5px;
+    border: 0px;
+    padding-left: 15px;
+    margin-bottom: 45px;
+    color: #ffffff;
+  }
+
+  .col-contact-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .rightside {
+    width: 0%;
+    display: none;
+    visibility: hidden;
+  }
+
+  .form-span-name-area {
+    width: 100%;
+    height: 150px;
+    background: rgba(217, 217, 217, 0.1);
+    border-radius: 5px;
+    border: 0px;
+    padding-left: 15px;
+    margin-bottom: 45px;
+    color: #ffffff;
+  }
+
+  .col-contact-form-details {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    padding: 55px 0px 50px 25px;
+  }
+
+  .col-contact-form-details-topic {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+
+    color: #ffffff;
+  }
+
+  .col-contact-form-details-topic-details {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #ffffff;
+  }
+
+  .leftside {
+    width: 99%;
+  }
+
+  .inside-one-col {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #ffffff;
+    margin-left: 40px;
+    margin-top: 75px;
+  }
+
+  .detils-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 18px;
+    margin-left: 2px;
+    width: 50%;
+    margin-top: 30px;
+  }
+
+  .detils-row-inside-detils-row {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ffffff;
+  }
+
+  .form-span-name {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 8px;
+    color: #ffffff;
+  }
+}
+
+.image-contact-image {
+  position: relative;
+  top: 178px;
+  left: -110px;
+}
+
+.firstimage-andtext-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
