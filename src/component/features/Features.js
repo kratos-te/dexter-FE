@@ -36,7 +36,7 @@ export default function Features() {
                 <p style={{ fontSize: "16px" }}>
                   Predictive analytics by combining highly sophisticated
                   statistical and mathematical <br />
-                  modeling to determine price action trends and patterns
+                  modeling to determine doze price action trends and patterns
                 </p>
               </div>
             </div>
